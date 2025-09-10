@@ -36,5 +36,10 @@ public class MainActivity extends AppCompatActivity {
             myText.setTextColor(Color.BLUE);
         });
 
+        Button myButton3 = findViewById(R.id.myButton3);
+        myButton3.setOnClickListener(v -> {
+            myText.setBackgroundColor(Color.YELLOW);
+        });
+
     }
 }
