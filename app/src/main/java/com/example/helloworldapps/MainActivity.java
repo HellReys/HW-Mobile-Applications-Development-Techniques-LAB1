@@ -1,6 +1,4 @@
 package com.example.helloworldapps;
-//Code for revert
-
 
 import android.graphics.Color;
 import android.os.Bundle;
