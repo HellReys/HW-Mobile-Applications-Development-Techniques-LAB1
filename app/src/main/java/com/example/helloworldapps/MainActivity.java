@@ -30,5 +30,11 @@ public class MainActivity extends AppCompatActivity {
         myButton.setOnClickListener(v -> {
             myText.setText("You Clicked Here Wow!");
         });
+
+        Button myButton2 = findViewById(R.id.myButton2);
+        myButton2.setOnClickListener(v -> {
+            myText.setTextColor(Color.BLUE);
+        });
+
     }
 }
